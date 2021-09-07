@@ -1,0 +1,10 @@
+Inicio
+    PI = 3.14159
+    longitud = Leer("Ingrese longitud")
+    radio = Leer("Ingrese radio")
+    
+    area = PI * radio * radio
+    volumen = area * longitud
+    Imprimir("Area:", area)
+    Imprimir("Volumen: ", volumen)
+Fin
